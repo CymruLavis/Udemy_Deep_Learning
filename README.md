@@ -6,31 +6,32 @@ Each notebook corresponds to specific sections of the course and is crafted to r
 
 ## Contents
 
-- [Course Overview](#course-overview)
-- [Getting Started](#getting-started)
-- [List of Notebooks](#list-of-notebooks)
-- [How to Use the Notebooks](#how-to-use-the-notebooks)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Course Overview
-
+- Theory: In depth lectures of why deep learning models are built the way they are
+- Math: The formulas and mechanisms of deep learning
+- Implementation: How deep learning models are constructed in Python using the PyTorch library
+- Intuition: Understanding which metaparameter configurations are the right choice, how to interpret the effects of regularization, etc.
+- Python: Further coding knowledge with Python to produce optimized code in the PyTorch library
+- Google-colab: Using Google Colab's services to run GPU enhanced programs for complext neural networks
+- 
 This course covers the following topics in Deep Learning:
+- Math and statistics invovled with deep learning
+- Gradient descent
+- Artificial Neural Networks (ANNs)
+- Overfitting and cross-validation
+- Regularization
+- Metparameters (activations and optimizers)
+- Feed-Forward Networks (FFNs)
+- Sourcing data and handling unbalanced datasets
+- Measuring model performance
+- Weight innitializations
+- Autoencoders
+- Running models on a GPU
+- Convolution and transformations
+- Convolutional Neaural Networks (CNNs)
+- Transfer learning
+- Style transfer
+- Generative adversarial networks (GANs)
+- Recurrent Neural Networks (RNNs), GRU/LSTM
+- Ethics of deep learning
 
-- Neural Networks
-- Convolutional Neural Networks (CNNs)
-- Recurrent Neural Networks (RNNs)
-- Generative Adversarial Networks (GANs)
-- Transfer Learning
-- And more...
-
-The coding challenges in this repository are designed to align with these topics, allowing you to apply what you have learned in each section of the course.
-
-## Getting Started
-
-To get started with the coding challenges:
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/deep-learning-udemy.git
-   cd deep-learning-udemy
+Each lecture was accompanied by coding tutorials, additional exercises, coding challenges, and milestone projects. All of which were to reinforce the theories covered in the lectures.
